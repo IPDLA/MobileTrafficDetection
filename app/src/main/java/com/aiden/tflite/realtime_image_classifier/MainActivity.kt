@@ -189,7 +189,7 @@ class MainActivity : AppCompatActivity() {
                 val elapsedTime = SystemClock.uptimeMillis() - startTime
 
                 classifier.classify(rgbFrameBitmap!!, sensorOrientation)
-                if(output.second >= 0.0) {
+                if(output.second >= 0.7) {
                     runOnUiThread {
                         binding.textResult.text =
                             String.format(
