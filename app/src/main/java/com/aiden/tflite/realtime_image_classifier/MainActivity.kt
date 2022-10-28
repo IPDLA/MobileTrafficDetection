@@ -190,7 +190,6 @@ class MainActivity : AppCompatActivity() {
 
                 classifier.classify(rgbFrameBitmap!!, sensorOrientation)
                 if(output.second >= 0.7) {
-                    
                     runOnUiThread {
                         binding.textResult.text =
                             String.format(

@@ -1,9 +1,15 @@
-instruction_children
-instruction_crosswalk
-instruction_cycleOnly
-instruction_peopleOnly
-instruction_pwCombined
-instruction_pwSeparated
-caution_slow
-restriction_speed20
-restriction_speed30
+0 caution_bump
+1 caution_children
+2 caution_crosswalk
+3 caution_danger
+4 caution_slow
+5 instruction_children
+6 instruction_crosswalk
+7 instruction_cycleOnly
+8 instruction_peopleOnly
+9 instruction_pwCombined
+10 instruction_pwSeparate
+11 restriction_speed20
+12 restriction_speed30
+13 restriction_speed40
+14 restriction_noCycle
